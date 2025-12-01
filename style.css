@@ -6,7 +6,15 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background: linear-gradient(135deg, #a83232 0%, #c44e4e 100%);
+    
+    /* --- NEW BACKGROUND CODE START --- */
+    background-image: url('liyana_background.jpg'); /* Make sure this filename matches yours! */
+    background-size: cover;                  /* Stretching the image to fit */
+    background-position: center;             /* Center the image */
+    background-repeat: no-repeat;            /* Don't tile the image */
+    background-attachment: fixed;            /* Keeps background still while scrolling */
+    /* --- NEW BACKGROUND CODE END --- */
+
     min-height: 100vh;
     display: flex;
     align-items: center;
